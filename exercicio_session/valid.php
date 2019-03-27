@@ -12,7 +12,7 @@ if($usuario != "admin" or $senha != "unifcv")
 	echo "<form action='login.php' method='post'><p> <input type='submit' value='Voltar'> </p></form>";
 }else{
 	
-	$_SESSION['logado'] = true;
+	$_SESSION['logado'] = "pqp mano";
 	header("Location: logado.php");
 }
 

@@ -1,11 +1,8 @@
 <?php 
 
-if (@$_SESSION['logado'] != true)
-		header("Location: login.php");
+echo @$_SESSION['logado'];
 
-
-
-echo "Usuario LOGADO";
+//echo "Usuario LOGADO";
 
 
 

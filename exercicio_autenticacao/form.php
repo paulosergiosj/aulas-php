@@ -1,7 +1,7 @@
 <?php
-	session_start();
-	if (@$_SESSION['logado'] != true)
-		header("Location: index.html");
+	
+echo $_SESSION['logado']; 
+	
 
 
 
